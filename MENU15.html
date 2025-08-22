@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>menu15</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Estilos -->
+    <style>
+        /* Menu */
+        .menu-box {
+            background-color: #333333;
+            padding: 20px;
+            border-radius: 0px;
+            text-align: center;
+            margin: 0px;
+            max-width: 4500px;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 1000;
+        }
+        .menu-box ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+        }
+        .menu-box li a {
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 1.2em;
+            font-family: Arial, sans-serif;
+        }
+        .menu-box li a:hover {
+            text-decoration: underline;
+        }
+
+        /* Conteúdo principal e sobre */
+        .conteudo, .sobre {
+            padding: 20px;
+            background-color: #9e9e9e;
+            border-radius: 10px;
+            max-width: 800px;
+            margin: 80px auto; /* top margin increased for spacing under menu */
+            display: block;
+        }
+
+        /* Rodapé */
+        .rodape {
+            text-align: center;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Menu -->
+    <div class="menu-box">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Sobre</a></li>
+            <li><a href="#">Serviços</a></li>
+            <li><a href="#">Contato</a></li>
+        </ul>
+    </div>
+
+    <!-- Conteúdo principal -->
+    <section class="conteudo">
+        <h1>Bem-vindo ao nosso site</h1>
+        <p>Este é um exemplo simples de menu responsivo usando HTML e CSS.</p>
+    </section>
+
+    <!-- Sobre -->
+    <section class="sobre">
+        <h2>Sobre nós</h2>
+        <p>Somos uma empresa dedicada a fornecer os melhores serviços aos nossos clientes.</p>
+    </section>
+
+    <!-- Rodapé -->
+    <footer class="rodape">
+        <p>© 2023 - Todos os direitos reservados</p>
+    </footer>
+
+</body>
+</html>

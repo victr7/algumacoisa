@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>3 Colunas</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background: #000000;
+    }
+
+    .container {
+      display: flex;
+      gap: 20px; /* Espaço entre colunas */
+      width: 90%;
+      height: 90%;
+    }
+
+    .coluna {
+      flex: 1; /* todas com o mesmo tamanho */
+      background: rgb(183, 0, 255);
+      border: 5px solid rgb(255, 255, 255); /* borda azul */
+      display: flex;
+      justify-content: center;
+      align-items: start;
+      color: #000000;
+      font-weight: bold;
+      padding: 5px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="coluna">alguma coisa1</div>
+    <div class="coluna">alguma coisa2</div>
+    <div class="coluna">alguma coisa3</div>
+  </div>
+</body>
+</html>

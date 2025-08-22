@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dashboard</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+    }
+
+    header {
+      background-color: #4CAF50;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #333;
+      padding: 15px;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    main {
+      padding: 20px;
+    }
+
+    .card {
+      background-color: white;
+      padding: 20px;
+      margin: 20px auto;
+      width: 80%;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      border-radius: 8px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Bem-vindo ao Dashboard</h1>
+  </header>
+
+  <nav>
+    <a href="#">Início</a>
+    <a href="#">Perfil</a>
+    <a href="#">Configurações</a>
+    <a href="login.html">Sair</a>
+  </nav>
+
+  <main>
+    <div class="card">
+      <h2>Resumo</h2>
+      <p>Você acessou o sistema com sucesso. Esta é a área do usuário logado.</p>
+    </div>
+
+    <div class="card">
+      <h2>Notificações</h2>
+      <p>Você não possui novas notificações.</p>
+    </div>
+  </main>
+
+</body>
+</html>
