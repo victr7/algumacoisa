@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Mural de Recados</title>
+    <style>
+      body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        background: linear-gradient(135deg, #667eea, #764ba2);
+        margin: 0;
+        padding: 20px;
+        color: #333;
+      }
+
+      h1 {
+        text-align: center;
+        color: #fff;
+        margin-bottom: 30px;
+      }
+
+      #formulario {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        flex-wrap: wrap;
+        margin-bottom: 30px;
+      }
+
+      #formulario input {
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        width: 200px;
+        font-size: 16px;
+      }
+
+      #formulario button {
+        padding: 10px 20px;
+        background-color: #fff;
+        color: #764ba2;
+        border: none;
+        border-radius: 5px;
+        font-weight: bold;
+        cursor: pointer;
+        transition: 0.3s;
+      }
+
+      #formulario button:hover {
+        background-color: #eee;
+      }
+
+      #mural {
+        max-width: 600px;
+        margin: 0 auto;
+      }
+
+      .mensagem {
+        background-color: #fff;
+        border-radius: 10px;
+        padding: 15px 20px;
+        margin-bottom: 15px;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        position: relative;
+        animation: fadeIn 0.5s ease-in-out;
+      }
+
+      .mensagem strong {
+        color: #764ba2;
+      }
+
+      .mensagem button {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        background: transparent;
+        border: none;
+        color: #999;
+        cursor: pointer;
+        font-size: 16px;
+      }
+
+      .mensagem button:hover {
+        color: #f00;
+      }
+
+      @keyframes fadeIn {
+        from {
+          opacity: 0;
+          transform: translateY(-10px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Mural de Recados ✨</h1>
+
+    <div id="formulario">
+      <input type="text" id="nome" placeholder="Seu nome" />
+      <input type="text" id="recado" placeholder="Digite seu recado" />
+      <button onclick="adicionarRecado()">Enviar</button>
+    </div>
+
+    <div id="mural"></div>
+
+    <script>
+      const mural = document.getElementById("mural");
+
+      function carregarRecados() {
+        const dados = JSON.parse(localStorage.getItem("recados")) || [];
+        dados.forEach(({ nome, recado }, index) =>
+          criarRecado(nome, recado, index)
+        );
+      }
+
+      function salvarRecados(dados) {
+        localStorage.setItem("recados", JSON.stringify(dados));
+      }
+
+      function criarRecado(nome, recado, index) {
+        const div = document.createElement("div");
+        div.className = "mensagem";
+        div.innerHTML = `<strong>${nome}</strong>: ${recado}
+        <button onclick="removerRecado(${index})">&times;</button>`;
+        mural.appendChild(div);
+      }
+
+      function adicionarRecado() {
+        const nomeInput = document.getElementById("nome");
+        const recadoInput = document.getElementById("recado");
+
+        const nome = nomeInput.value.trim();
+        const recado = recadoInput.value.trim();
+
+        if (!nome || !recado) {
+          alert("Preencha todos os campos!");
+          return;
+        }
+
+        const dados = JSON.parse(localStorage.getItem("recados")) || [];
+        dados.push({ nome, recado });
+        salvarRecados(dados);
+
+        mural.innerHTML = ""; // limpar e recarregar
+        carregarRecados();
+
+        nomeInput.value = "";
+        recadoInput.value = "";
+      }
+
+      function removerRecado(index) {
+        const dados = JSON.parse(localStorage.getItem("recados")) || [];
+        dados.splice(index, 1);
+        salvarRecados(dados);
+        mural.innerHTML = "";
+        carregarRecados();
+      }
+
+      // Carrega ao iniciar
+      carregarRecados();
+    </script>
+  </body>
+</html>
