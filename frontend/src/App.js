@@ -171,10 +171,10 @@ const DashboardLayout = ({ children, activeSection, setActiveSection }) => {
   const { user, logout } = useAuth();
 
   const menuItems = [
-    { id: 'dashboard', name: 'Dashboard', icon: '📊' },
-    { id: 'products', name: 'Products', icon: '📦' },
-    { id: 'financial', name: 'Financial', icon: '💰' },
-    { id: 'inventory', name: 'Inventory', icon: '📋' },
+    { id: 'dashboard', name: 'Painel', icon: '📊' },
+    { id: 'products', name: 'Produtos', icon: '📦' },
+    { id: 'financial', name: 'Financeiro', icon: '💰' },
+    { id: 'inventory', name: 'Estoque', icon: '📋' },
   ];
 
   return (
