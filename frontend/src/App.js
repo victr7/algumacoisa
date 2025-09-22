@@ -513,7 +513,7 @@ const ProductsSection = () => {
               />
             </div>
             <div>
-              <label className="block text-sm font-medium text-gray-700 mb-2">Stock Quantity</label>
+              <label className="block text-sm font-medium text-gray-700 mb-2">Quantidade em Estoque</label>
               <input
                 type="number"
                 value={formData.stock_quantity}
