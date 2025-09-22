@@ -281,10 +281,10 @@ const DashboardOverview = () => {
   }
 
   const statCards = [
-    { title: 'Total Products', value: stats?.total_products || 0, icon: '📦', color: 'bg-blue-500' },
-    { title: 'Total Revenue', value: `$${stats?.total_revenue?.toFixed(2) || '0.00'}`, icon: '💰', color: 'bg-green-500' },
-    { title: 'Total Expenses', value: `$${stats?.total_expenses?.toFixed(2) || '0.00'}`, icon: '📊', color: 'bg-red-500' },
-    { title: 'Low Stock Items', value: stats?.low_stock_products || 0, icon: '⚠️', color: 'bg-orange-500' },
+    { title: 'Total de Produtos', value: stats?.total_products || 0, icon: '📦', color: 'bg-blue-500' },
+    { title: 'Receita Total', value: `R$${stats?.total_revenue?.toFixed(2) || '0,00'}`, icon: '💰', color: 'bg-green-500' },
+    { title: 'Despesas Totais', value: `R$${stats?.total_expenses?.toFixed(2) || '0,00'}`, icon: '📊', color: 'bg-red-500' },
+    { title: 'Itens em Falta', value: stats?.low_stock_products || 0, icon: '⚠️', color: 'bg-orange-500' },
   ];
 
   return (
