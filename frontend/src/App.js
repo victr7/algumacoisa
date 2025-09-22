@@ -478,7 +478,7 @@ const ProductsSection = () => {
       {showForm && (
         <div className="bg-white rounded-xl shadow-lg p-6 border border-gray-200">
           <h3 className="text-lg font-semibold text-gray-800 mb-4">
-            {editingProduct ? 'Edit Product' : 'Add New Product'}
+            {editingProduct ? 'Editar Produto' : 'Adicionar Novo Produto'}
           </h3>
           <form onSubmit={handleSubmit} className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <div>
