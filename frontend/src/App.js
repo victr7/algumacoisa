@@ -159,7 +159,7 @@ const Login = () => {
         </form>
 
         <div className="mt-6 text-center text-sm text-gray-400">
-          Default credentials: <span className="text-blue-300">admin / admin123</span>
+          Credenciais padrão: <span className="text-blue-300">admin / admin123</span>
         </div>
       </div>
     </div>
