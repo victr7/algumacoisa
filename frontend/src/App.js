@@ -223,7 +223,12 @@ const DashboardLayout = ({ children, activeSection, setActiveSection }) => {
       <div className="flex-1 flex flex-col">
         <header className="bg-white shadow-sm border-b px-6 py-4">
           <div className="flex items-center justify-between">
-            <h1 className="text-2xl font-bold text-gray-800 capitalize">{activeSection}</h1>
+            <h1 className="text-2xl font-bold text-gray-800 capitalize">
+              {activeSection === 'dashboard' ? 'Painel' : 
+               activeSection === 'products' ? 'Produtos' : 
+               activeSection === 'financial' ? 'Financeiro' : 
+               activeSection === 'inventory' ? 'Estoque' : activeSection}
+            </h1>
             <div className="flex items-center space-x-4">
               <div className="bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm font-medium">
                 Online
