@@ -187,7 +187,7 @@ const DashboardLayout = ({ children, activeSection, setActiveSection }) => {
               <span className="text-white font-bold">A</span>
             </div>
             <div>
-              <h2 className="text-lg font-semibold text-gray-800">Admin Panel</h2>
+              <h2 className="text-lg font-semibold text-gray-800">Painel Admin</h2>
               <p className="text-sm text-gray-600">{user?.username}</p>
             </div>
           </div>
