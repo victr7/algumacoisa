@@ -214,7 +214,7 @@ const DashboardLayout = ({ children, activeSection, setActiveSection }) => {
             className="w-full flex items-center space-x-3 px-4 py-2 text-red-600 hover:bg-red-50 rounded-lg transition-colors"
           >
             <span>🚪</span>
-            <span>Logout</span>
+            <span>Sair</span>
           </button>
         </div>
       </div>
