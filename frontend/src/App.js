@@ -492,7 +492,7 @@ const ProductsSection = () => {
               />
             </div>
             <div>
-              <label className="block text-sm font-medium text-gray-700 mb-2">Category</label>
+              <label className="block text-sm font-medium text-gray-700 mb-2">Categoria</label>
               <input
                 type="text"
                 value={formData.category}
@@ -786,7 +786,7 @@ const FinancialSection = () => {
               />
             </div>
             <div>
-              <label className="block text-sm font-medium text-gray-700 mb-2">Category</label>
+              <label className="block text-sm font-medium text-gray-700 mb-2">Categoria</label>
               <input
                 type="text"
                 value={formData.category}
