@@ -327,23 +327,23 @@ const DashboardOverview = () => {
         </div>
 
         <div className="bg-white rounded-xl shadow-lg p-6 border border-gray-200">
-          <h3 className="text-lg font-semibold text-gray-800 mb-4">Quick Actions</h3>
+          <h3 className="text-lg font-semibold text-gray-800 mb-4">Ações Rápidas</h3>
           <div className="grid grid-cols-2 gap-3">
             <button className="p-4 bg-blue-50 hover:bg-blue-100 rounded-lg text-center transition-colors border border-blue-200">
               <div className="text-2xl mb-2">➕</div>
-              <span className="text-sm font-medium text-blue-700">Add Product</span>
+              <span className="text-sm font-medium text-blue-700">Adicionar Produto</span>
             </button>
             <button className="p-4 bg-green-50 hover:bg-green-100 rounded-lg text-center transition-colors border border-green-200">
               <div className="text-2xl mb-2">💵</div>
-              <span className="text-sm font-medium text-green-700">Add Income</span>
+              <span className="text-sm font-medium text-green-700">Adicionar Receita</span>
             </button>
             <button className="p-4 bg-orange-50 hover:bg-orange-100 rounded-lg text-center transition-colors border border-orange-200">
               <div className="text-2xl mb-2">📊</div>
-              <span className="text-sm font-medium text-orange-700">View Reports</span>
+              <span className="text-sm font-medium text-orange-700">Ver Relatórios</span>
             </button>
             <button className="p-4 bg-purple-50 hover:bg-purple-100 rounded-lg text-center transition-colors border border-purple-200">
               <div className="text-2xl mb-2">⚙️</div>
-              <span className="text-sm font-medium text-purple-700">Settings</span>
+              <span className="text-sm font-medium text-purple-700">Configurações</span>
             </button>
           </div>
         </div>
