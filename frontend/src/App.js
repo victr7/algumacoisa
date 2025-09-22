@@ -307,20 +307,20 @@ const DashboardOverview = () => {
 
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
         <div className="bg-white rounded-xl shadow-lg p-6 border border-gray-200">
-          <h3 className="text-lg font-semibold text-gray-800 mb-4">Recent Activity</h3>
+          <h3 className="text-lg font-semibold text-gray-800 mb-4">Atividades Recentes</h3>
           <div className="space-y-3">
             <div className="flex items-center space-x-3 p-3 bg-gray-50 rounded-lg">
               <div className="w-8 h-8 bg-blue-500 rounded-full flex items-center justify-center text-white text-sm">📦</div>
               <div>
-                <p className="text-sm font-medium text-gray-800">Product management system active</p>
-                <p className="text-xs text-gray-600">System ready for product operations</p>
+                <p className="text-sm font-medium text-gray-800">Sistema de gestão de produtos ativo</p>
+                <p className="text-xs text-gray-600">Sistema pronto para operações de produtos</p>
               </div>
             </div>
             <div className="flex items-center space-x-3 p-3 bg-gray-50 rounded-lg">
               <div className="w-8 h-8 bg-green-500 rounded-full flex items-center justify-center text-white text-sm">💰</div>
               <div>
-                <p className="text-sm font-medium text-gray-800">Financial tracking enabled</p>
-                <p className="text-xs text-gray-600">Ready to track revenue and expenses</p>
+                <p className="text-sm font-medium text-gray-800">Controle financeiro habilitado</p>
+                <p className="text-xs text-gray-600">Pronto para rastrear receitas e despesas</p>
               </div>
             </div>
           </div>
