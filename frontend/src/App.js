@@ -502,7 +502,7 @@ const ProductsSection = () => {
               />
             </div>
             <div>
-              <label className="block text-sm font-medium text-gray-700 mb-2">Price</label>
+              <label className="block text-sm font-medium text-gray-700 mb-2">Preço</label>
               <input
                 type="number"
                 step="0.01"
