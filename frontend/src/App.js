@@ -465,13 +465,13 @@ const ProductsSection = () => {
   return (
     <div className="space-y-6">
       <div className="flex justify-between items-center">
-        <h2 className="text-2xl font-bold text-gray-800">Product Management</h2>
+        <h2 className="text-2xl font-bold text-gray-800">Gestão de Produtos</h2>
         <button
           onClick={() => setShowForm(true)}
           className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded-lg transition duration-200 flex items-center space-x-2"
         >
           <span>➕</span>
-          <span>Add Product</span>
+          <span>Adicionar Produto</span>
         </button>
       </div>
 
