@@ -734,8 +734,8 @@ const FinancialSection = () => {
         <div className="bg-red-50 rounded-xl p-6 border border-red-200">
           <div className="flex items-center justify-between">
             <div>
-              <p className="text-sm font-medium text-red-600">Total Expenses</p>
-              <p className="text-2xl font-bold text-red-800">${totalExpenses.toFixed(2)}</p>
+              <p className="text-sm font-medium text-red-600">Despesas Totais</p>
+              <p className="text-2xl font-bold text-red-800">R${totalExpenses.toFixed(2)}</p>
             </div>
             <div className="w-12 h-12 bg-red-500 rounded-lg flex items-center justify-center text-white text-xl">
               📉
