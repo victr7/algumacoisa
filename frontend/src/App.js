@@ -1036,10 +1036,10 @@ const InventorySection = () => {
                           : 'bg-green-100 text-green-800'
                     }`}>
                       {product.stock_quantity === 0 
-                        ? 'Out of Stock' 
+                        ? 'Sem Estoque' 
                         : product.stock_quantity < 10 
-                          ? 'Low Stock' 
-                          : 'In Stock'
+                          ? 'Estoque Baixo' 
+                          : 'Em Estoque'
                       }
                     </span>
                   </td>
