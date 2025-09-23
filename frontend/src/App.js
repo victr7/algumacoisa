@@ -953,7 +953,7 @@ const InventorySection = () => {
         <div className="bg-red-50 rounded-xl p-6 border border-red-200">
           <div className="flex items-center justify-between">
             <div>
-              <p className="text-sm font-medium text-red-600">Out of Stock</p>
+              <p className="text-sm font-medium text-red-600">Sem Estoque</p>
               <p className="text-2xl font-bold text-red-800">{outOfStockProducts.length}</p>
             </div>
             <div className="w-12 h-12 bg-red-500 rounded-lg flex items-center justify-center text-white text-xl">
