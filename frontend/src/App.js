@@ -677,7 +677,7 @@ const FinancialSection = () => {
   };
 
   const handleDelete = async (recordId) => {
-    if (window.confirm('Are you sure you want to delete this record?')) {
+    if (window.confirm('Tem certeza que deseja deletar este registro?')) {
       try {
         const response = await fetch(`${API_BASE}/api/financial/${recordId}`, {
           method: 'DELETE',
