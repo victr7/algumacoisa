@@ -593,7 +593,7 @@ const ProductsSection = () => {
                     ? 'bg-orange-100 text-orange-800' 
                     : 'bg-red-100 text-red-800'
               }`}>
-                Stock: {product.stock_quantity}
+                Estoque: {product.stock_quantity}
               </span>
             </div>
           </div>
