@@ -763,15 +763,15 @@ const FinancialSection = () => {
           <h3 className="text-lg font-semibold text-gray-800 mb-4">Adicionar Registro Financeiro</h3>
           <form onSubmit={handleSubmit} className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <div>
-              <label className="block text-sm font-medium text-gray-700 mb-2">Type</label>
+              <label className="block text-sm font-medium text-gray-700 mb-2">Tipo</label>
               <select
                 value={formData.type}
                 onChange={(e) => setFormData({ ...formData, type: e.target.value })}
                 className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
                 required
               >
-                <option value="income">Income</option>
-                <option value="expense">Expense</option>
+                <option value="income">Receita</option>
+                <option value="expense">Despesa</option>
               </select>
             </div>
             <div>
