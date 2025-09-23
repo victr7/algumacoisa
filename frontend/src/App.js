@@ -984,7 +984,7 @@ const InventorySection = () => {
       {/* Inventory Table */}
       <div className="bg-white rounded-xl shadow-lg border border-gray-200">
         <div className="p-6 border-b">
-          <h3 className="text-lg font-semibold text-gray-800">All Products</h3>
+          <h3 className="text-lg font-semibold text-gray-800">Todos os Produtos</h3>
         </div>
         <div className="overflow-x-auto">
           <table className="w-full">
