@@ -707,13 +707,13 @@ const FinancialSection = () => {
   return (
     <div className="space-y-6">
       <div className="flex justify-between items-center">
-        <h2 className="text-2xl font-bold text-gray-800">Financial Control</h2>
+        <h2 className="text-2xl font-bold text-gray-800">Controle Financeiro</h2>
         <button
           onClick={() => setShowForm(true)}
           className="bg-green-600 hover:bg-green-700 text-white font-semibold py-2 px-4 rounded-lg transition duration-200 flex items-center space-x-2"
         >
           <span>➕</span>
-          <span>Add Record</span>
+          <span>Adicionar Registro</span>
         </button>
       </div>
 
