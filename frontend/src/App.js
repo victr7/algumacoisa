@@ -855,7 +855,7 @@ const FinancialSection = () => {
                 <span className={`text-lg font-semibold ${
                   record.type === 'income' ? 'text-green-600' : 'text-red-600'
                 }`}>
-                  {record.type === 'income' ? '+' : '-'}${record.amount.toFixed(2)}
+                  {record.type === 'income' ? '+' : '-'}R${record.amount.toFixed(2)}
                 </span>
                 <button
                   onClick={() => handleDelete(record.id)}
