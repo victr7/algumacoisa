@@ -553,7 +553,7 @@ const ProductsSection = () => {
                 }}
                 className="bg-gray-600 hover:bg-gray-700 text-white font-semibold py-2 px-4 rounded-lg transition duration-200"
               >
-                Cancel
+                Cancelar
               </button>
             </div>
           </form>
@@ -825,7 +825,7 @@ const FinancialSection = () => {
                 }}
                 className="bg-gray-600 hover:bg-gray-700 text-white font-semibold py-2 px-4 rounded-lg transition duration-200"
               >
-                Cancel
+                Cancelar
               </button>
             </div>
           </form>
