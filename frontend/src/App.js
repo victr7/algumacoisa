@@ -746,9 +746,9 @@ const FinancialSection = () => {
         <div className={`${netProfit >= 0 ? 'bg-blue-50 border-blue-200' : 'bg-orange-50 border-orange-200'} rounded-xl p-6 border`}>
           <div className="flex items-center justify-between">
             <div>
-              <p className={`text-sm font-medium ${netProfit >= 0 ? 'text-blue-600' : 'text-orange-600'}`}>Net Profit</p>
+              <p className={`text-sm font-medium ${netProfit >= 0 ? 'text-blue-600' : 'text-orange-600'}`}>Lucro Líquido</p>
               <p className={`text-2xl font-bold ${netProfit >= 0 ? 'text-blue-800' : 'text-orange-800'}`}>
-                ${netProfit.toFixed(2)}
+                R${netProfit.toFixed(2)}
               </p>
             </div>
             <div className={`w-12 h-12 ${netProfit >= 0 ? 'bg-blue-500' : 'bg-orange-500'} rounded-lg flex items-center justify-center text-white text-xl`}>
