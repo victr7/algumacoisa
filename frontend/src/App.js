@@ -775,7 +775,7 @@ const FinancialSection = () => {
               </select>
             </div>
             <div>
-              <label className="block text-sm font-medium text-gray-700 mb-2">Amount</label>
+              <label className="block text-sm font-medium text-gray-700 mb-2">Valor</label>
               <input
                 type="number"
                 step="0.01"
