@@ -439,7 +439,7 @@ const ProductsSection = () => {
   };
 
   const handleDelete = async (productId) => {
-    if (window.confirm('Are you sure you want to delete this product?')) {
+    if (window.confirm('Tem certeza que deseja deletar este produto?')) {
       try {
         const response = await fetch(`${API_BASE}/api/products/${productId}`, {
           method: 'DELETE',
