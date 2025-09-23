@@ -921,7 +921,7 @@ const InventorySection = () => {
   return (
     <div className="space-y-6">
       <div className="flex justify-between items-center">
-        <h2 className="text-2xl font-bold text-gray-800">Inventory Control</h2>
+        <h2 className="text-2xl font-bold text-gray-800">Controle de Estoque</h2>
       </div>
 
       {/* Inventory Summary */}
