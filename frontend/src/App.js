@@ -603,8 +603,8 @@ const ProductsSection = () => {
       {products.length === 0 && (
         <div className="text-center py-12">
           <div className="text-6xl mb-4">📦</div>
-          <h3 className="text-xl font-semibold text-gray-600 mb-2">No products yet</h3>
-          <p className="text-gray-500">Add your first product to get started</p>
+          <h3 className="text-xl font-semibold text-gray-600 mb-2">Nenhum produto ainda</h3>
+          <p className="text-gray-500">Adicione seu primeiro produto para começar</p>
         </div>
       )}
     </div>
