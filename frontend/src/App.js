@@ -810,7 +810,7 @@ const FinancialSection = () => {
                 type="submit"
                 className="bg-green-600 hover:bg-green-700 text-white font-semibold py-2 px-4 rounded-lg transition duration-200"
               >
-                Add Record
+                Adicionar Registro
               </button>
               <button
                 type="button"
