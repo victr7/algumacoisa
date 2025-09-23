@@ -536,7 +536,7 @@ const ProductsSection = () => {
                 type="submit"
                 className="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded-lg transition duration-200"
               >
-                {editingProduct ? 'Update Product' : 'Add Product'}
+                {editingProduct ? 'Atualizar Produto' : 'Adicionar Produto'}
               </button>
               <button
                 type="button"
