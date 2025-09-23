@@ -73,12 +73,12 @@
 
 /* Button hover effects */
 .btn-primary {
-  background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%);
+  background: linear-gradient(135deg, #94a3b8 0%, #cbd5e1 100%);
   transition: all 0.3s ease;
 }
 
 .btn-primary:hover {
-  background: linear-gradient(135deg, #2563eb 0%, #7c3aed 100%);
+  background: linear-gradient(135deg, #94a3b8 0%, #cbd5e1 100%);
   transform: translateY(-1px);
   box-shadow: 0 10px 25px rgba(59, 130, 246, 0.3);
 }
