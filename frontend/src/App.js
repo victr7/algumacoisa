@@ -1053,8 +1053,8 @@ const InventorySection = () => {
       {products.length === 0 && (
         <div className="text-center py-12">
           <div className="text-6xl mb-4">📋</div>
-          <h3 className="text-xl font-semibold text-gray-600 mb-2">No inventory data</h3>
-          <p className="text-gray-500">Add products to track inventory</p>
+          <h3 className="text-xl font-semibold text-gray-600 mb-2">Nenhum dado de estoque</h3>
+          <p className="text-gray-500">Adicione produtos para rastrear o estoque</p>
         </div>
       )}
     </div>
