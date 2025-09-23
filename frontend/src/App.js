@@ -973,7 +973,7 @@ const InventorySection = () => {
                 <h4 className="font-medium text-gray-900">{product.name}</h4>
                 <p className="text-sm text-gray-600">{product.category}</p>
                 <p className="text-sm font-medium text-orange-600 mt-2">
-                  Only {product.stock_quantity} remaining
+                  Apenas {product.stock_quantity} restantes
                 </p>
               </div>
             ))}
