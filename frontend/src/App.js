@@ -835,7 +835,7 @@ const FinancialSection = () => {
       {/* Records List */}
       <div className="bg-white rounded-xl shadow-lg border border-gray-200">
         <div className="p-6 border-b">
-          <h3 className="text-lg font-semibold text-gray-800">Recent Transactions</h3>
+          <h3 className="text-lg font-semibold text-gray-800">Transações Recentes</h3>
         </div>
         <div className="divide-y divide-gray-200">
           {records.slice(0, 10).map((record) => (
